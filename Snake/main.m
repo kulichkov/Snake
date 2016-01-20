@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #include <ncurses.h>
+#include "SNKPoint.h"
 
 void draw(int x, int y, char sym);
 
@@ -23,16 +24,19 @@ int main(int argc, char *argv[]) {
     
     
     
+    SNKPoint *point1 = [[SNKPoint alloc] init];
+    SNKPoint *point2 = [[SNKPoint alloc] init];
     
-    int x1 = 1, y1 = 3;
-    char sym1 = '*';
+    point1.x = 1;
+    point1.y = 3;
+    point1.sym = '*';
     
-    draw(x1, y1, sym1);
-
-    int x2 = 4, y2 = 5;
-    char sym2 = '#';
+    point2.x = 4;
+    point2.y = 5;
+    point2.sym = '#';
     
-    draw(x2, y2, sym2);
+    [point1 draw];
+    [point2 draw];
     
     
     
@@ -45,9 +49,16 @@ int main(int argc, char *argv[]) {
 
 }
 
-void draw(int x, int y, char sym) {
-    mvaddch(y, x, sym);
-}
+
+
+
+
+
+
+
+
+
+
 
 //#include <ncurses.h>
 //

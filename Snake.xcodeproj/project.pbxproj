@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B144F31C4F7DA0001EA3DD /* SNKPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B144F21C4F7DA0001EA3DD /* SNKPoint.m */; };
 		69CCD1931C4E3524005887A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CCD1921C4E3524005887A8 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		69B144F11C4F7DA0001EA3DD /* SNKPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKPoint.h; sourceTree = "<group>"; };
+		69B144F21C4F7DA0001EA3DD /* SNKPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKPoint.m; sourceTree = "<group>"; };
 		69CCD18F1C4E3524005887A8 /* Snake */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Snake; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CCD1921C4E3524005887A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69B144F51C4F7E06001EA3DD /* SNKPoint */ = {
+			isa = PBXGroup;
+			children = (
+				69B144F11C4F7DA0001EA3DD /* SNKPoint.h */,
+				69B144F21C4F7DA0001EA3DD /* SNKPoint.m */,
+			);
+			name = SNKPoint;
+			sourceTree = "<group>";
+		};
 		69CCD1861C4E3524005887A8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				69CCD1921C4E3524005887A8 /* main.m */,
+				69B144F51C4F7E06001EA3DD /* SNKPoint */,
 			);
 			path = Snake;
 			sourceTree = "<group>";
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69CCD1931C4E3524005887A8 /* main.m in Sources */,
+				69B144F31C4F7DA0001EA3DD /* SNKPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
