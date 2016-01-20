@@ -207,6 +207,7 @@
 		69CCD1971C4E3524005887A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_LDFLAGS[arch=*]" = "-lncurses";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -237,6 +238,7 @@
 				69CCD1981C4E3524005887A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
