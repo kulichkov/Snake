@@ -4,7 +4,7 @@
 //
 //  Created by Mikhail Kulichkov on 19/01/16.
 //  Copyright © 2016 kulichkov. All rights reserved.
-//
+// Master Branch
 
 #import <Foundation/Foundation.h>
 #include <ncurses.h>
