@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #include <ncurses.h>
 #include "SNKPoint.h"
+#include "SNKHorizontalLine.h"
 
 void draw(int x, int y, char sym);
 
@@ -20,18 +21,14 @@ int main(int argc, char *argv[]) {
     refresh();
     clear();
     
-    
-    
-    
-    
-    SNKPoint *point1 = [SNKPoint newSNKPointWithX:1 andY:3 andSymbol:'*'];
-    SNKPoint *point2 = [SNKPoint newSNKPointWithX:4 andY:5 andSymbol:'#'];
+    SNKPoint *point1 = [SNKPoint SNKPointWithX:1 andY:3 andSymbol:'*'];
+    SNKPoint *point2 = [SNKPoint SNKPointWithX:4 andY:5 andSymbol:'#'];
     
     [point1 draw];
     [point2 draw];
     
-    
-    
+    SNKHorizontalLine *horizontalLine = [SNKHorizontalLine SNKHorizontalLineWithXLeft:4 andXRight:17 andY:4 andSymbol:'%'];
+    [horizontalLine draw];
     
     
     delwin(snakes_world);

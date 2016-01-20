@@ -16,5 +16,5 @@
 -(void)draw;
 -(SNKPoint *)init;
 -(SNKPoint *)initWithX:(int)x andY:(int)y andSymbol:(char)sym;
-+(SNKPoint *)newSNKPointWithX:(int)x andY:(int)y andSymbol:(char)sym;
++(SNKPoint *)SNKPointWithX:(int)x andY:(int)y andSymbol:(char)sym;
 @end

@@ -25,7 +25,7 @@
     return self;
 }
 
-+(SNKPoint *)newSNKPointWithX:(int)x andY:(int)y andSymbol:(char)sym {
++(SNKPoint *)SNKPointWithX:(int)x andY:(int)y andSymbol:(char)sym {
     return [[SNKPoint alloc] initWithX:x andY:y andSymbol:sym];
 }
 @end

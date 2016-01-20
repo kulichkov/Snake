@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690722B11C4F9A8E00C1FA94 /* SNKHorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 690722B01C4F9A8E00C1FA94 /* SNKHorizontalLine.m */; };
 		69B144F31C4F7DA0001EA3DD /* SNKPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B144F21C4F7DA0001EA3DD /* SNKPoint.m */; };
 		69CCD1931C4E3524005887A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CCD1921C4E3524005887A8 /* main.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		690722AF1C4F9A8E00C1FA94 /* SNKHorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKHorizontalLine.h; sourceTree = "<group>"; };
+		690722B01C4F9A8E00C1FA94 /* SNKHorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKHorizontalLine.m; sourceTree = "<group>"; };
 		69B144F11C4F7DA0001EA3DD /* SNKPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNKPoint.h; sourceTree = "<group>"; };
 		69B144F21C4F7DA0001EA3DD /* SNKPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNKPoint.m; sourceTree = "<group>"; };
 		69CCD18F1C4E3524005887A8 /* Snake */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Snake; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690722B21C4F9A9300C1FA94 /* SNKHorizontalLine */ = {
+			isa = PBXGroup;
+			children = (
+				690722AF1C4F9A8E00C1FA94 /* SNKHorizontalLine.h */,
+				690722B01C4F9A8E00C1FA94 /* SNKHorizontalLine.m */,
+			);
+			name = SNKHorizontalLine;
+			sourceTree = "<group>";
+		};
 		69B144F51C4F7E06001EA3DD /* SNKPoint */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				69CCD1921C4E3524005887A8 /* main.m */,
+				690722B21C4F9A9300C1FA94 /* SNKHorizontalLine */,
 				69B144F51C4F7E06001EA3DD /* SNKPoint */,
 			);
 			path = Snake;
@@ -133,6 +146,7 @@
 			files = (
 				69CCD1931C4E3524005887A8 /* main.m in Sources */,
 				69B144F31C4F7DA0001EA3DD /* SNKPoint.m in Sources */,
+				690722B11C4F9A8E00C1FA94 /* SNKHorizontalLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
