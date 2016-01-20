@@ -24,16 +24,8 @@ int main(int argc, char *argv[]) {
     
     
     
-    SNKPoint *point1 = [[SNKPoint alloc] init];
-    SNKPoint *point2 = [[SNKPoint alloc] init];
-    
-    point1.x = 1;
-    point1.y = 3;
-    point1.sym = '*';
-    
-    point2.x = 4;
-    point2.y = 5;
-    point2.sym = '#';
+    SNKPoint *point1 = [SNKPoint newSNKPointWithX:1 andY:3 andSymbol:'*'];
+    SNKPoint *point2 = [SNKPoint newSNKPointWithX:4 andY:5 andSymbol:'#'];
     
     [point1 draw];
     [point2 draw];

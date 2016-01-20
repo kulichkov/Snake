@@ -14,4 +14,18 @@
     mvaddch(self.y, self.x, self.sym);
 }
 
+-(SNKPoint *)init{
+    return [self initWithX:0 andY:0 andSymbol:0];
+}
+
+-(SNKPoint *)initWithX:(int)x andY:(int)y andSymbol:(char)sym {
+    self.x = x;
+    self.y = y;
+    self.sym = sym;
+    return self;
+}
+
++(SNKPoint *)newSNKPointWithX:(int)x andY:(int)y andSymbol:(char)sym {
+    return [[SNKPoint alloc] initWithX:x andY:y andSymbol:sym];
+}
 @end

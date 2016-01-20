@@ -14,4 +14,7 @@
 @property int x, y;
 @property char sym;
 -(void)draw;
+-(SNKPoint *)init;
+-(SNKPoint *)initWithX:(int)x andY:(int)y andSymbol:(char)sym;
++(SNKPoint *)newSNKPointWithX:(int)x andY:(int)y andSymbol:(char)sym;
 @end
